@@ -1,0 +1,9 @@
+# Raw generated data and derived results
+data/raw/
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
