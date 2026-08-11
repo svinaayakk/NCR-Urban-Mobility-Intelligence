@@ -1,5 +1,5 @@
 # Raw generated data and derived results
-data/raw/
+data/raw
 outputs/
 
 # Python
