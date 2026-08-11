@@ -32,4 +32,12 @@ python3 python/database/run_sql_analysis.py
 
 This creates a local SQLite analytical database and exports the business-query results to `outputs/sql/`.
 
+## Calculate fleet-allocation opportunities
+
+```bash
+python3 python/analysis/mobility_opportunity.py
+```
+
+This produces a transparent 0–100 Mobility Opportunity Score for each zone-hour, including priority bands and recommended vehicle type based on observed demand mix.
+
 The data is synthetic and must not be represented as Uber, Ola, or measured NCR ride-hailing data.
